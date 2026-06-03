@@ -1,3 +1,4 @@
 str = "Naman Jangid"
-str2 = "Shankara Institute of technology"
-str3 = "Jaipur"
+str2 = "\nShankara Institute of technology"
+str3 = "\nJaipur"
+print(str,str2,str3)
