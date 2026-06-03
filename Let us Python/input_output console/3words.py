@@ -1,0 +1,6 @@
+w1 = input("Enter the word 1: ")
+print(w1,end="-")
+w2 = input("Enter the word 2: ")
+print(w2,end="-")
+w3 = input("Enter the word 3: ")
+print(w3)
