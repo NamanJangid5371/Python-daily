@@ -1,0 +1,7 @@
+num1 = num2 = (10,20,30,40,50)
+print(id(num1),type(num2))
+# print(isinstance(num1,num2))
+print(num1 is num2)
+print(num1 is not num2)
+print(20 in num1)
+print(30 not in num2)
