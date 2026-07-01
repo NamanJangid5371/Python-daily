@@ -7,5 +7,3 @@ for i in range[1,11]:
 print("Total Score:",sum(score))
 print("The average score:",sum(score)/len(score))
 print("Highest score:",max(score))
-if score>50:
-    
