@@ -11,3 +11,9 @@ finally:
 
 name = input("tell your name:-")
 print(f"Your name is {name}") 
+
+age = int(input("Enter your age: "))
+if age < 18:
+    raise TypeError("Your are not eligible: ")
+
+print("Your are eligible.")
