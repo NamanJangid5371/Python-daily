@@ -159,4 +159,38 @@
 #when we are doing inheritance and parent and child classes
 #have same method name so the child class method will overrider your parent class method.
 
-#M
+#Method overloading 
+
+# class hello:
+#     def speak(self,a):
+#         print(f"how are you ")
+
+#     def speak(self,a,b):
+#         print("how are you 1")
+
+
+#=============================================================================================================================================
+
+#Enclapsulation
+
+# class factory:
+#     __name = "KIA" #public class attribute
+#     _old = 12  # Protected class attribute
+    
+#     def __init__(self,colour,tyre,type):
+#         self.colour = colour  #public object attribute 
+#         self.tyre = tyre
+#         self.type = type
+
+#     def detail(self): #public method
+#         print("hello your details are: ")
+
+# obj = factory("Silver","MRF","Compact SUV")
+# class hello(factory):
+#     print(factory.__name)
+# obj.name = "Honda"
+# print(obj.name)
+# obj._old = 13
+# print(obj._old)
+
+#===============================================================================================================================================
