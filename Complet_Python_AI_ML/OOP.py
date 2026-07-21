@@ -193,15 +193,43 @@
 # obj._old = 13
 # print(obj._old)
 
-#===============================================================================================================================================
+#=============================================================================================================================================================================
 
-class hello:
-    __a = 12
+# class hello:
+#     __a = 12
 
-    @classmethod
-    def info(cls):
-        print(cls.__a)
+#     @classmethod
+#     def info(cls):
+#         print(cls.__a)
 
-obj = hello()
+# obj = hello()
+# obj.info
+# print(obj.__a)
 
-print(obj.__a)
+#=========================================================================================================================================================================
+
+#Abstraction 
+
+from abc import ABC, abstractmethod
+
+class enforce(ABC):
+    @abstractmethod
+    def enginestart():
+        pass
+    
+
+class car(enforce):
+    def enginestart():
+        pass
+
+class bike(enforce):
+    def enginestart():
+        pass
+
+class truck(enforce):
+    def enginestart():
+        pass
+
+obj1 = bike()
+obj2 = car()
+obj3 = truck()
