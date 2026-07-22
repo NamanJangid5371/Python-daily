@@ -210,26 +210,52 @@
 
 #Abstraction 
 
-from abc import ABC, abstractmethod
+# from abc import ABC, abstractmethod
 
-class enforce(ABC):
-    @abstractmethod
-    def enginestart():
-        pass
+# class enforce(ABC):
+#     @abstractmethod
+#     def enginestart():
+#         pass
     
 
-class car(enforce):
-    def enginestart():
-        pass
+# class car(enforce):
+#     def enginestart():
+#         pass
 
-class bike(enforce):
-    def enginestart():
-        pass
+# class bike(enforce):
+#     def enginestart():
+#         pass
 
-class truck(enforce):
-    def enginestart():
-        pass
+# class truck(enforce):
+#     def enginestart():
+#         pass
 
-obj1 = bike()
-obj2 = car()
-obj3 = truck()
+# obj1 = bike()
+# obj2 = car()
+# obj3 = truck()
+
+#============================================================================================================================================================================
+
+#Dunder methods
+# class Animal:
+#     def __init__(self,name):
+#         self.name = name 
+    
+#     def __str__(self):
+#         return f"Hello my name is {self.name}"
+# obj = Animal("Lion")
+
+# print(obj)
+
+# class numbers:
+#     def __init__(self,num):
+#         self.num = num
+
+#     def __add__(self,other):
+#         return self.num + other.num
+
+# num1 = numbers(20)
+# num2 = numbers(30)
+
+# print(num1 + num2)
+        
