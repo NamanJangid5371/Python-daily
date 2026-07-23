@@ -1,0 +1,29 @@
+{
+    "students": [
+        {
+            "name": "naman",
+            "age": 12,
+            "email": "namanjangid5371@gmail.com",
+            "roll_no": "21",
+            "grades": {}
+        },
+        {
+            "name": "sunil",
+            "age": 55,
+            "email": "suniljangid@gmail.com",
+            "roll_no": "23",
+            "grades": {
+                "Maths": 69.0
+            }
+        }
+    ],
+    "teachers": [
+        {
+            "name": "Shweta ",
+            "age": 32,
+            "email": "shweatbhora@gamil.com",
+            "subject": "sst",
+            "emp_id": "1"
+        }
+    ]
+}
